@@ -14,6 +14,13 @@ async function newProduct(req: Request, res: Response): Promise<Response> {
   return res.status(201).json(serviceResponse.data);
 }
 
+async function listAll(req: Request, res: Response): Promise<Response> {
+  const serviceResponse = await productServices.list();
+
+  return res.status(200).json(serviceResponse.data);
+}
+
 export default {
   newProduct,
+  listAll,
 };
