@@ -8,7 +8,7 @@ import productMock from '../../mocks/products.mock';
 describe('ProductsService', function () {
 
   describe('/product create', function () {
-    it('01 - Create a Product Successfully', async function () {
+    it('cria um produto com sucesso', async function () {
       // Arrange
       const mockCreateReturn = ProductModel.build(productMock.productValidFromDB);
       sinon.stub(ProductModel, 'create')
@@ -23,7 +23,7 @@ describe('ProductsService', function () {
 
     });
 
-    it('02 - Returns error when a NAME is not sent', async function () {
+    it('caso não tenha o parâmetro name', async function () {
       // Arrange
       const mockCreateReturn = ProductModel.build(productMock.productValidFromDB);
       sinon.stub(ProductModel, 'create')
@@ -38,7 +38,7 @@ describe('ProductsService', function () {
 
     });
 
-    it('03 - Returns error when a PRICE is not sent', async function () {
+    it('caso não tenha o parâmetro price', async function () {
       // Arrange
       const mockCreateReturn = ProductModel.build(productMock.productValidFromDB);
       sinon.stub(ProductModel, 'create')
@@ -53,7 +53,7 @@ describe('ProductsService', function () {
 
     });
 
-    it('04 - Returns error when a ORDERID is not sent', async function () {
+    it('caso não tenha o parâmetro OrderId', async function () {
       // Arrange
       const mockCreateReturn = ProductModel.build(productMock.productValidFromDB);
       sinon.stub(ProductModel, 'create')
