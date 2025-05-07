@@ -18,4 +18,4 @@ Este projeto é uma API RESTful que simula o backend de uma loja de itens mediev
 
 1. **Clone o repositório:**
    ```bash
-   git clone <url-do-repositório>
+   git clone git@github.com:DadAquino/projeto-trybesmith.git
