@@ -1,10 +1,21 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Trybesmith - Branch Customizada
+
+## 📄 Descrição do Projeto
+
+Este projeto é uma API RESTful que simula o backend de uma loja de itens medievais, como espadas, escudos e poções. A aplicação permite gerenciar usuários, produtos, pedidos e logins, com autenticação baseada em tokens JWT. Esta branch específica contém implementações e ajustes próprios, que podem incluir melhorias, refatorações ou novas funcionalidades.
+
+## 🛠 Tecnologias Utilizadas
+
+- **Node.js** — ambiente de execução JavaScript no backend;
+- **Express.js** — framework para criação de APIs REST;
+- **TypeScript** — linguagem utilizada para maior segurança e manutenção;
+- **MySQL** — banco de dados relacional;
+- **JWT (JSON Web Token)** — para autenticação de usuários;
+- **Docker** — para configuração do ambiente de desenvolvimento;
+- **ESLint & Prettier** — para padronização de código.
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone <url-do-repositório>
